@@ -1,0 +1,71 @@
+#cd{
+	background-image: url('../backgrounds/bg_go2.png');
+	-webkit-border-radius: 40px 40px 40px 40px; 
+    -moz-border-radius: 40px 40px 40px 40px; 
+    -o-border-radius: 40px 40px 40px 40px; 
+    border-radius: 40px 40px 40px 40px; 
+}
+
+#cd .cd-images .first-row-cd  #cdtitle{
+	width: 65%;
+	height: 65%;
+	display: block;
+    margin-left: 145px;
+    margin-right: auto;
+}
+
+#cd .cd-images .second-row-cd  .col-md-6 #cdcover{
+
+	width: 90%;
+	height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5%;
+
+}
+
+#cd .cd-images .second-row-cd .col-md-6 #tuffysitting{
+	width:45%;
+	height:45%;
+	margin-bottom: -20%;
+	margin-left: 45%;
+	margin-top:-15%;
+}
+
+
+#cd .cd-images .second-row-cd .col-md-6 p{
+
+	font-size: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.27);
+	background-image: url('../backgrounds/str_orange1.png'); 
+	background-position: center;
+	margin-left: -10%;
+	margin-right: 5%;
+	text-align:center;
+}
+
+#cd .cd-images .third-row-cd .col-md-12 {
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+
+#cd .cd-images .third-row-cd .col-md-12 img{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#cd #google-logo{
+	height: 84px;
+}
+
+#cd #amazon-logo{
+	width: 350px;
+}
+
+#cd #app-banner
+{
+	margin-bottom: 20px;
+}

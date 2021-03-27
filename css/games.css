@@ -1,0 +1,53 @@
+#games #header
+{
+	width: 35%;
+}
+
+#games .panel-body{
+	background-image: url('../backgrounds/bg_pa_gr.png');
+	background-size: 150px;
+    height: 100%;
+    padding-top: 0;
+	
+}
+
+#games .panel.panel-default{
+	margin-bottom: auto;
+	height: 100%;
+}
+
+#games #gamesChooserSlider{
+	padding-top: 15px;	
+}
+
+#games #activity img {
+	 margin: 0 auto;
+	 padding-left: 20px;
+}
+
+#games #gamesChooserSlider .bx-pager.bx-default-pager, #games #activity .bx-pager.bx-default-pager{
+		visibility: hidden;
+}
+
+#gamesChooserSlider {
+	text-align: center;
+}
+
+#games .shareWorkLink 
+{
+	margin-top: 50px;
+}
+
+#games #shareYourWork{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	width:100%;
+	
+}
+
+#games .instructions {
+	text-align: center;
+}
+

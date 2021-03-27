@@ -1,0 +1,103 @@
+
+.header {
+	    font-size: 20px;
+}
+
+.col-md-6.left-header{
+
+	padding-left: 0px; 
+	border-left-width: 0px;
+}
+
+
+.resources  {
+	list-style: none;
+	display:inline;
+}
+
+
+.resources li {
+	float: left;
+ 	padding: 0 10px;
+ 	vertical-align: right;
+ 	float: right;
+ 	border-right: 1px solid orange;
+ 	border-radius: 0px;
+}
+
+.resources li:first-child { 
+	border: 0; 
+} 
+
+.header #NewYork{
+	font-size: 20px;
+	margin-top: 0px; 
+	margin-bottom: 0px;
+	letter-spacing: 6px;
+	border-radius: 0px;
+}
+
+.col-md-2.logo{
+  padding-left: 0px;
+  padding-right: 0px;
+
+}
+
+.tuffy-header{
+	margin-bottom: 0px;
+}
+
+.tuffy-header-pic *{
+	padding-left: 0px; 
+	padding-right: 0px;
+}
+
+.tuffy-header-pic .col-md-5 .tuffy-logo
+{
+	width: 105%;
+	margin-top: 4%;
+}
+
+.tuffy-header-pic .col-md-7 .tuffy-header
+{
+	width: 100%;
+	margin-top: -10%;
+	margin-left: 5%;
+}
+
+#mainTabs{
+    background-image: url('../backgrounds/bg_gr4.png');
+	-webkit-border-radius: 30px 30px 40px 40px; 
+    -moz-border-radius: 30px 30px 40px 40px;
+    -o-border-radius: 30px 30px 40px 40px;
+    border-radius: 30px 30px 40px 40px; 
+
+}
+
+.nav-icon.makentakes-icon {
+
+}
+
+input[value='Donate']
+{
+	    border-radius: 0;
+    border-width: 0;
+      color: #337ab7;
+}
+
+input[value='Donate']:hover{
+	text-decoration: underline;
+	color: #23527c;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+#shareWork1 .modal-dialog .modal-content header .closebtn  
+{
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 2%;
+  color: white;
+}
+#shareWork1  form .closebtn 
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #E48B26;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#shareWork1  .closebtn:hover .closebtn:focus {
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#shareWork1  .container {
+	font-size: 14px;
+	padding: 2px 16px;
+}
+
+#shareWork1  header {
+  background-image: url('../backgrounds/str_peach.png');
+  background-position: center;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+}
+
+#shareWork1 #shareAgreement {
+  width: 720px;
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Unity WebGL Player | Tuffy Game</title>
+		<link rel="stylesheet" href="TemplateData2/style.css">
+		<link rel="shortcut icon" href="TemplateData2/favicon.ico" />
+		<script type="text/javascript" src="https://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+		<script type="text/javascript" src="TemplateData2/CSSPlugin.js"></script>
+		<script src="TemplateData2/UnityProgress.js"></script>
+	</head>
+	<body class="template">
+		<div class="template-wrap clear">
+			<canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
+		</div>
+		<div id="loadingBox">
+			<div id="bgBar"></div>
+			<div id="progressBar"></div>
+			<img id="spinner" src="TemplateData2/spinner.gif" style="display: none; margin: 0 auto" />
+			<p id="loadingInfo">Loading...</p>
+		</div>
+		<script type='text/javascript'>
+  var Module = {
+    TOTAL_MEMORY: 268435456,
+    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+    compatibilitycheck: null,
+    dataUrl: "Release2/WebGL builds.data",
+    codeUrl: "Release2/WebGL builds.js",
+    memUrl: "Release2/WebGL builds.mem",
+  };
+</script>
+<script src="Release2/UnityLoader.js"></script>
+
+	</body>
+</html>

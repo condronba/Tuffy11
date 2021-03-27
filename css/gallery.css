@@ -1,0 +1,102 @@
+#gallery #header
+{
+	width: 35%;
+}
+
+
+#gallery .panel-body{
+	background-image: url('../backgrounds/str_aqua.png');
+	background-position:center;
+    height: 100%;
+    padding-top: 0;
+	
+}
+
+#gallery .panel.panel-default{
+	margin-bottom: auto;
+	height: 100%;
+}
+
+
+#gallery #albumsChooserSlider .bx-pager.bx-default-pager, #gallery #activity .bx-pager.bx-default-pager{
+		visibility: hidden;
+}
+
+#gallery #activity 
+{
+	background-image: url('../gallery/frame_bg3.png');
+	max-height: 410px;
+	margin-bottom: 100px;
+
+}
+
+#gallery #activity img
+{
+	max-height: 410px;
+	margin: auto;
+	padding: 10px;
+	border-radius: 50px;
+
+}
+/* used later on
+#gallery .galleryChooserSlider img{
+	max-height: 167px;
+	margin: auto;
+}
+*/
+#album-title
+{
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	background-image: url('../gallery/frame_bg2.png');
+	color: white;
+	border-radius: 30px;
+	padding: 10px;
+}
+
+#activity .bx-wrapper {
+	margin-bottom: 30px;
+	background: transparent;
+	border:none;
+	box-shadow: none;
+	left: auto;
+	right: auto;
+}
+
+#gallery #activity .bx-prev {
+	left: -70px;
+}
+
+#gallery #activity .bx-next{
+	right: -70px;
+	
+}
+
+#gallery h4{
+	margin-top: 100px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#albumsChooserSlider {
+	text-align: center;
+}
+
+#gallery .bx-wrapper {
+	margin-bottom: 0px;
+}
+
+#gallery #shareYourWork{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width:100%;
+}
+
+#gallery #activity img#galleryPlace{
+	border-radius: 0px;
+}
+
+
+

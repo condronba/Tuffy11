@@ -1,0 +1,109 @@
+.footer *{
+	margin-left: 0px; 
+	margin-right: 0px;
+	z-index: 300;
+	position: relative;
+}
+.social-media, .footer-links {
+	list-style: none;
+	display:inline;
+}
+
+.footer-logo img
+{
+	width:130px;
+	height:60px;
+	max-width: 60%;
+	max-height: 50%;
+	margin:auto;
+	margin-top: 3px;
+}
+
+
+.social-media li, .footer-links li {
+	float: left;
+ 	padding: 0 5px;
+ 	float: right;
+ 	border-radius: 0px;
+}
+
+
+
+.footer-links li {
+    border-right: 1px solid orange;
+    font-size: 20px;
+}
+.footer-links li:first-child { 
+	border: 0; 
+} 
+.footer-links li:last-child {
+	padding-left: 5px;
+}
+.social-media li {
+	float: left;
+}
+
+.social-media img
+{
+	margin-top: 12%;
+  width: 50px;
+  height: 50px;
+
+}
+
+.social-media, .footer-links {
+	padding-left: 0px;
+}
+
+.footer .links {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-right: 40px;
+}
+
+.organization *{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 10px;
+
+}
+
+.footer #PuppetryArtsLogo {
+	display: block;
+	margin-top: 3px;
+	width: 50%;
+	height: 50%;
+}
+
+.footer #contact-link p{
+	margin-top: 13%;
+}
+
+#flush{
+	margin-top: -10px;
+	display: inline-block;
+	text-align: center;
+}
+
+.footer #NewYork{
+	font-size: 19px;
+		margin-top: 0px; 
+	margin-bottom: 0px;
+	letter-spacing: 5px;
+}
+
+.copyright {
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+

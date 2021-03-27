@@ -1,0 +1,28 @@
+#about .panel.panel-default{
+	margin-bottom: auto;
+	height: 100%;
+}
+
+#about .panel-body {
+  height:100%;
+  padding-top: 0px;
+}
+
+#about {
+  font-size: 20px;
+}
+
+.contactUs #emailus
+{
+	margin-bottom: 4px;
+
+}
+
+.tax {
+	text-align: center;
+}
+
+
+
+
+

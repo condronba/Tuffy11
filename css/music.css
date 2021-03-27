@@ -1,0 +1,81 @@
+#music #header
+{
+	width: 35%;
+}
+
+#music
+{
+	background-image: url('../backgrounds/str_pe.png');
+	background-position: center;
+	
+}
+#music .panel-body
+{
+	padding-top: 0px;
+}
+#music .music-selection{
+	font-size: 20px;
+}
+
+#music .panel-default {
+
+    height: 100%;
+	width:100%;
+    padding-top: 0;
+	background: transparent;
+}
+
+.music-selection {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#music_title {
+	width: 100%;
+	padding: 5px;
+}
+
+.panel-body.im-centered *{
+    margin-left: auto;
+    margin-right: auto;
+	background-color: transparent;
+
+}
+ul.music-list {
+		list-style: none;
+
+}
+
+.music-list a.active {
+	font-weight: bold;
+}
+
+#music-cover 
+{
+	width: 100%;
+
+}
+
+.cd-order img{
+	height: 83px;
+	width: auto;
+
+}
+
+.cd-order-title{
+	text-align: center;
+	font-size: 30px;
+}
+#music .panel-body.outer {
+	border-style: none;
+}
+
+#music #app-banner
+{
+	margin-bottom: 20px;
+
+}
+
+#music .music-list {
+	padding-left: 30px;
+}

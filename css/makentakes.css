@@ -1,0 +1,75 @@
+#makentakes #header{
+	width: 68%;
+}
+#makentakes .panel-body{
+	background-image: url('../backgrounds/bg_bl3.png');
+    height: 100%;
+    padding-top: 0;
+	
+}
+
+#makentakes .panel.panel-default{
+	margin-bottom: auto;
+	height: 100%;
+}
+
+#makentakes #shareYourWork{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width:100%;
+}
+
+#makentakes #makentakeChooserSlider .bx-pager.bx-default-pager, #makentakes #activity .bx-pager.bx-default-pager{
+		visibility: hidden;
+}
+
+#makentakes .activity-name{
+	margin-top: 0px;
+
+}
+
+#activity .bx-wrapper {
+	margin-bottom: 30px;
+	background: transparent;
+	border:none;
+	box-shadow: none;
+	left: auto;
+	right: auto;
+}
+
+#activity .bx-prev {
+	left: -15px;
+}
+
+#activity .col-md-1{
+	padding-right: 0px; 
+	padding-left: 20px;
+}
+
+.grownupNote, .activity-description,  {
+	list-style: none;
+}
+
+#makentakes li {
+	font-size: 20px;
+}
+
+#makentakes h3{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+#makentakes h4{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#makentakeChooserSlider {
+	text-align: center;
+}
+
+#makentakes .bx-wrapper {
+	margin-bottom: 0px;
+}

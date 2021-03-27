@@ -1,0 +1,53 @@
+#videos #header{
+	width: 35%;
+}
+
+#videos .panel-body{
+	background-image: url('../backgrounds/str_aqua.png');
+    height: 100%;
+    padding-top: 0;
+	background-position: center;
+	
+}
+
+#videos .panel.panel-default{
+	margin-bottom: auto;
+	height: 100%;
+}
+
+#videos #shareYourWork{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width:100%;
+}
+
+#videos #videosChooserSlider{
+	padding-top: 15px;	
+}
+
+#videos #activity *{
+	 margin: 0 auto;
+
+}
+
+#videos #videosChooserSlider .bx-pager.bx-default-pager, #videos #activity .bx-pager.bx-default-pager{
+		visibility: hidden;
+}
+
+#videosChooserSlider {
+	text-align: center;
+}
+
+#videos .videosChooserSlider img{
+	max-height: 167px;
+	margin: auto;
+}
+
+#videos #tuffy-app{
+	margin-top: 50px;
+}
+
+#videos .row.artist {
+	text-align: center;
+}

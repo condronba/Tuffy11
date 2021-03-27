@@ -1,0 +1,74 @@
+#artists #header{
+	width: 68%;
+}
+#artists .panel-body{
+	background-image: url('../backgrounds/bg_bl3.png');
+    height: 100%;
+    padding-top: 0;
+	
+}
+
+#artists .panel.panel-default{
+	margin-bottom: auto;
+	height: 100%;
+}
+
+#shareYourWork{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	width:100%;
+}
+
+#artists #makentakeChooserSlider .bx-pager.bx-default-pager, #artists #activity .bx-pager.bx-default-pager{
+		visibility: hidden;
+}
+
+#artists .activity-name{
+	margin-top: 0px;
+
+}
+
+#activity .bx-wrapper {
+	margin-bottom: 30px;
+	background: transparent;
+	border:none;
+	box-shadow: none;
+	left: auto;
+	right: auto;
+}
+
+#activity .bx-prev {
+	left: -15px;
+}
+
+#activity .col-md-1{
+	padding-right: 0px; 
+	padding-left: 20px;
+}
+
+
+#artists li {
+	font-size: 20px;
+}
+
+#artists h3{
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+#artists h4{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#makentakeChooserSlider {
+	text-align: center;
+}
+
+#artists .bx-wrapper {
+	margin-bottom: 0px;
+}
+
+

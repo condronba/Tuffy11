@@ -1,0 +1,54 @@
+#app .row #heading1{
+	
+	width: 80%;
+}
+
+
+#app{
+	background-image: url('../backgrounds/bg_pa_gr3.png');
+	border: none;
+	background-repeat: repeat;
+}
+
+#app .row #appicon{
+	margin-top: -2%;
+	margin-left: 10%;
+	width:85%;
+
+}
+#app #bar{
+	position: absolute;
+	margin-top: -1%;
+	margin-left: 87px;
+	padding-bottom: 14px;
+	background-color: #E4333C;
+}
+
+#app .row .images #tuffy{
+	margin-top: 33%;
+	margin-left: -25%;
+	width: 114%;
+
+}
+
+#app .row .images #iphoneapp{
+	margin-top: -26%;
+	margin-left: -70%;
+	width: 140%;
+}
+
+#app #watchvideos{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 11px;
+}
+
+#app .shareWorkLink 
+{
+	margin-top: 50px;
+}
+
+#app #shareYourWork
+{
+	margin-bottom: 20px;
+}

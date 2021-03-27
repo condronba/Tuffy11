@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tuffy The Tiger</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/home.css"> 
+  <!-- bxSlider CSS file -->
+  <link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/community.css">
+
+  <link href='http://fonts.googleapis.com/css?family=Noticia+Text:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/parents_teachers.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/makentakes.css">
+  <link rel="stylesheet" href="css/cd.css">
+  <link rel="stylesheet" href="css/music.css">
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/videos.css" />
+  <link rel="stylesheet" href="css/games.css" />
+  <link rel="stylesheet" href="css/gallery.css" />
+  <link rel="stylesheet" href="css/tuffyprofile.css" />
+  <link rel="stylesheet" href="css/poedyprofile.css" />
+  <link rel="stylesheet" href="css/pamprofile.css" />
+  <link rel="stylesheet" href="css/arleeprofile.css" />
+  <link rel="stylesheet" href="css/timprofile.css" />
+  <link rel="stylesheet" href="css/tootsprofile.css" />
+  <link rel="stylesheet" href="css/share.css" /> 
+  <link rel="stylesheet" type="text/css" href="jwplayer/skins/vapor.css"/>
+    <link rel="stylesheet" href="css/main.css"> 
+</head>
+
+<body>
+  <!--Header---------------------------------------------------------------------->    
+  <header class="header">
+    <div class="container">
+
+      <div class="row">
+       <div class="col-md-3 left-header">
+         <div class="organization">
+          <img ID = "PuppetryArtsLogo" class="header-logo img-responsive" src="header/puppetry_arts_logo.png">
+        </div>
+      </div>
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-6">              
+        <ul class="resources">
+         <li><a id="parents-teachers-link" data-placement="bottom">Parents & Teachers</a></li>
+         <li><a id="community-link" data-placement="bottom">Community</a></li>
+         <li><form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank">
+          <input type="hidden" value="_s-xclick" name="cmd">
+          <input type="hidden" value="4328663" name="hosted_button_id">
+          <input type="submit" value="Donate">
+        </form></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--Tuffy Logo Row---------------->
+  <div class="row tuffy-header-pic">
+    <div class="col-md-5">
+      <img class="tuffy-logo img-responsive" src="header/tuffylogowhite1.png" alt="tuffylogowhite">
+    </div>
+    <div class="col-md-7">
+      <img class="tuffy-header img-responsive" src="pictures/tuffy_header.png" alt="tuffy_header">
+    </div>
+  </div>
+
+
+
+</header>
+<!--Navigation---------------------------------------------------------------------->           
+<div class="container" id="MainContainer">
+
+  <div class="row">
+    <!--Character bar---------------------------------------------------------------------->  
+    <div class="col-md-2 leftsidebar">
+      <div id="sidebargroup">
+
+
+        <ul>
+          <li><a class="tuffy-profile-icon" href="#tuffyprofile"><img src="pictures/tuffywindow.png" alt="Tuffy_window" /></a></li>
+          <li><a class="poedy-profile-icon" href="#poedyprofile"><img src="pictures/poedywindow.png" alt="Poedy_window" /></a></li>
+          <li><a class="arlee-profile-icon" ><img class="img-responsive" src="pictures/comingsoon1.png" alt="Arlee_window" /></a></li>
+		  <li><a class="pam-profile-icon"   href="#pamprofile"><img src="pictures/pamwindow1.png" alt="Pam_window"/></a></li>
+          <li><a class="tim-profile-icon" href="#timprofile"><img src="pictures/timwindow.png" alt="Tim_window"/></a></li>
+          <li><a class="toots-profile-icon" ><img src="pictures/comingsoon.png" alt="Toots_window" /></a></li>
+
+        </ul>
+
+
+      </div> 
+    </div>
+
+    <div class="col-md-10 rightsidebar">
+
+
+      <!--Nav Row---------------->        
+      <div class="row">             
+        <div class="nav-container navbar-static-top">
+          <ul class="nav nav-tabs" id="mainTabs">
+            <li class="home-nav active"><a href="#home" data-toggle="tab"><img class="nav-icon home-icon img-responsive" src="pictures/homeicon.png" alt="home-icon"><div class="tab-name">Home</div></a></li>
+            <li class="games-nav"><a href="#games" data-toggle="tab"><img class="nav-icon games-icon img-responsive" src="pictures/games.png" alt="games-icon"><div class="tab-name">Games</div></a></li>
+            <li class="music-nav"><a href="#music" data-toggle="tab"><img class="nav-icon music-icon img-responsive" src="pictures/notes.png" alt="music-icon"><div class="tab-name">Music</div></a></li>
+            <li class="videos-nav"><a href="#videos" data-toggle="tab"><img class="nav-icon videos-icon img-responsive" src="pictures/video.png" alt="video-icon"><div class="tab-name">Videos</div></a></li>
+            <li class="app-nav"><a href="#app" data-toggle="tab"><img class="nav-icon app-icon img-responsive" src="pictures/mobile.png" alt="gallery-icon"><div class="tab-name">App</div></a></li>
+            <li class="makentakes-nav"><a href="#makentakes" data-toggle="tab"><img class="nav-icon makentakes-icon img-responsive" src="pictures/glue.png" alt="makentakes-icon"><div class="tab-name">Make N' Takes</div></a></li>
+          </ul>               
+        </div> 
+
+
+      </div>
+      <div class="row">
+        <div class="main tab-content"> <!--Using javascript to load each page-->
+          <div class="main tab-pane active" id="home">        
+          </div>
+          <div class="main tab-pane" id="games">         
+          </div>
+          <div class="main tab-pane" id="music">        
+          </div>
+          <div class="main tab-pane" id="videos">   
+          </div>
+          <div class="main tab-pane" id="app">        
+          </div>
+          <div class="main tab-pane" id="gallery">        
+          </div>
+          <div class="main tab-pane" id="makentakes">          
+          </div>
+          <div class="main tab-pane" id="cd">
+          </div>
+          <div class="main tab-pane" id="tuffyprofile">          
+          </div>
+          <div class="main tab-pane" id="poedyprofile">          
+          </div>
+          <div class="main tab-pane" id="pamprofile">          
+          </div>
+          <div class="main tab-pane" id="arleeprofile">          
+          </div>
+          <div class="main tab-pane" id="timprofile">          
+          </div>
+          <div class="main tab-pane" id="tootsprofile">          
+          </div>		
+          <div class="main tab-pane" id="mikeprofile">          
+          </div>    
+          <div class="main tab-pane" id="community">          
+          </div>
+          <div class="main tab-pane" id="teacherparent">          
+          </div>
+          <div class="main tab-pane" id="about">          
+          </div>
+          <div class="main tab-pane" id="contact">          
+          </div>
+
+        </div>        
+
+
+      </div>
+
+
+
+      <div class="row pull-down">
+
+        <!--Footer---------------------------------------------------------------------->  
+        <div class="footer">         
+          <div class="row">
+            <div class="col-md-3 footer-logo">
+              <img class="img-responsive" src="footer/tuffylogowhite.png" alt="Tuffy">
+            </div>
+            <div class="col-md-4 organization">
+              <div id="container">
+                  <img id = "PuppetryArtsLogo" class="header-logo img-responsive" src="header/puppetry_arts_logo.png">
+             </div>
+           </div>
+           <div class="col-md-5 links">
+
+             <ul class="footer-links">
+              <li><a id="contact-link" data-container="body"><p>About/Contact<p></a></li> 
+            </ul>
+
+            <ul class="social-media">
+             <li><!--LinkedIn link-->
+              <a  data-container="body" href="https://www.linkedin.com/pub/tuffy-tiger/a8/824/773/">
+                <img class="img-responsive" src="footer/LinkedIn-Transparent.png" alt="LinkedIn_Logo"/>
+              </a>
+            </li>    
+            <li><!--Twitter link-->
+              <a data-container="body" href="https://twitter.com/TuffyTiger123">
+                <img class="img-responsive" src="footer/new-twitter-bird-square.png" alt="Twitter_Logo"/>
+              </a>
+            </li>
+            <li><!--Facebook link-->
+              <a data-container="body" href="https://www.facebook.com/puppetryarts.nonprofit">
+                <img class="img-responsive" src="footer/facebook-logo-square.png" alt="Facebook_Logo"/>
+              </a>
+            </li>                                                
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="copyright">©2016 T E Young/Puppetry Arts New York. Tuffy Tiger<sup>TM</sup> © 2008  T E Young/Puppetry Arts New York. All rights reserved.</div>
+      </div>        
+    </div>
+  </div>
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="js/home.js"></script>
+    ​<script src="jwplayer/jwplayer.js"></script>
+    <script>jwplayer.key="A8RkHxa0+wNgfe4afl4qIGZ29JPiBHR4ZFg2mw==";</script>
+
+    <!-- Modal For Sending Letter -->
+    <div id="id01" class="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <header class="container"> 
+            <a href="#" class="closebtn">×</a>
+            <h2 class="WriteTo">Write a Letter to Tuffy!</h2>
+          </header>
+
+          <div class="container">
+            <form id="mailform">
+              <p class="LetterTo"> Dear Tuffy,</p>
+              <div id="emailLetter">
+                <textarea form="mailform" id="letterbody" name="letterbody" rows="4" ></textarea>
+                <div id="help-block-letter-1" class="letter-error" hidden >Letter can only be 500 characters or less.</div>
+                <div id="help-block-letter-2" class="letter-error" hidden>Letter needs some words.</div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                </div>
+                <div class="col-md-4">
+                  <p id="signOff">Your Friend, </p>
+                  <div class="nameLetter">
+                    <input id="signOff" name="signOff" type="text" class="input" /> 
+                    <div id="help-block-name" hidden>Please enter your name.</div>
+                    <div id="help-block-name2" hidden>Name is too long. More than 40 characters.</div>
+
+                  </div>
+                  <input id="characterLetter" name="character" type="hidden" value="Tuffy">                  
+                </div>
+                <div class="col-md-1">
+                </div>
+              </div>
+              <div id="emailParent">
+                <div>  
+                  <input onclick="hiding()" type="checkbox" id="box" ></input>
+                  <label id="emailLabel" for="box">Have an Email so Tuffy can reply back? (Optional)</label>
+                </div>
+                <input name="custom" id="hide" name="email" style="width: 500px;" placeholder="Please enter email" hidden />
+                <div id="help-block-email" hidden>Please enter a valid email address or uncheck the email box.</div>
+              </div>
+              <script>
+              function hiding()
+              {
+                if(document.getElementById("box").checked)
+                {
+                 $("#hide").show();
+                 $("#hide").addClass("form-control");
+               }
+               else
+               {
+                $("#hide").hide();
+                $("#hide").removeClass("form-control");
+                $("#help-block-email").removeClass("help-block");
+              }
+            }
+
+            </script>
+            <a type="submit" href="#id02" class="closebtn send">Send to Tuffy</a> 
+            
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="id02" class="modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <header class="container"> 
+          <a href="#" class="closebtn close">×</a>
+          <h2>Mail Sent! &#9993;</h2>
+        </header>
+        
+        <div class="container">
+          <p>Thanks for sending me a letter! &#9993;</p>
+
+          <div class="row">
+            <a href="#" class="closebtn">
+              <a href="#id01"  class="closebtn sendLetter anotherLetter">Write another letter to Tuffy?
+              </a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- Share-->
+<div id="shareWork1" class="modal">
+    <div class="modal-dialog">
+		<div class="modal-content">
+			<header class="container"> 
+				<a href="#" class="closebtn">×</a>
+				<h2>Share Your Handmade Puppet with Tuffy!</h2>
+			</header>
+        
+			<div class="container" style="height: 600px;">
+
+			<div class="embed-responsive embed-responsive-4by3">
+				<iframe class="embed-responsive-item" src="share.php" style="zoom:0.60" frameborder="0" height="250" width="720"></iframe> 
+			</div>
+
+			</div>
+		</div>
+    </div>
+</div>
+<!--Used to preload the backgrounds, for each background -->
+<div class="dummy1" > </div>
+<div class="dummy2" > </div>
+<div class="dummy3" > </div>
+<div class="dummy4" > </div>
+<div class="dummy5" > </div>
+<div class="dummy6" > </div>
+<div class="dummy7" > </div>
+<div class="dummy8" > </div>
+<div class="dummy9" > </div>
+<div class="dummy10" > </div>
+<div class="dummy11" > </div>
+<div class="dummy12" > </div>
+<div class="dummy13" > </div>
+<div class="dummy14" > </div>
+<div class="dummy15" > </div>
+<div class="dummy16" > </div>
+<div class="dummy17" > </div>
+
+
+
+
+
+
+</body>
+
+
+
+</html>

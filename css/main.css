@@ -1,0 +1,486 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    background: transparent;
+    font-family: Arial,Helvetica,sans-serif;
+}
+
+html,body {
+    background-image: url('../backgrounds/bg_bl.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-border-radius: 5px 5px 5px 5px; 
+    -moz-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+        /* transitions */
+    -webkit-transition: all .4s ease;
+       -moz-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+         -o-transition: all .4s ease;
+            transition: all .4s ease;
+}
+
+html *{
+    -webkit-border-radius: 10px 10px 10px 10px; 
+    -moz-border-radius: 10px 10px 10px 10px; 
+    -o-border-radius: 10px 10px 10px 10px; 
+    border-radius: 10px 10px 10px 10px; 
+
+}
+
+
+div {
+    /*border: 1px solid red; */
+}
+
+.left-header{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+
+#mainTabs{
+  position:absolute;
+  left:0;
+  right:0;
+height: 100%;
+}
+#mainTabs ul{
+  height: 100%;
+width: 100%
+}
+
+#mainTabs.nav-tabs > li.active > a, #mainTabs.nav-tabs > li.active > a:focus, #mainTabs.nav-tabs > li.active > a:hover{
+    background-color: transparent; 
+    border-color:transparent;
+    outline:none;
+    height: 100%;
+    width:100%;
+
+} 
+
+#mainTabs.nav-tabs > li > a,#mainTabs.nav-tabs > li > a:hover,#mainTabs.nav-tabs > li > a:focus{
+	background-color: transparent; 
+    border-color:transparent;
+    outline:none;
+        height: 100%;
+    width:100%;
+} 
+
+#mainTabs.nav.nav-tabs{
+  border:none;
+}
+
+#mainTabs a img {
+  border: none;
+}
+
+
+.nav-icon{
+  max-width: 60px;
+  max-height: 75px;
+  margin: auto;
+}
+
+.active [data-toggle="tab"]{
+  font-weight: bold;
+}
+
+.tab-name{
+  background-color: #E68FAC;
+    -webkit-border-radius: 30px 30px 30px 30px; 
+    -moz-border-radius: 30px 30px 30px 30px; 
+    -o-border-radius: 30px 30px 30px 30px; 
+    border-radius: 30px 30px 30px 30px; 
+    text-align: center; 
+      border-color: #FFD1DC;
+  border-style: solid;
+  color: white;
+  font-size: 25px;
+}
+
+#mainTabs a[data-toggle="tab"] {
+  padding: 0px;
+  padding-left: 30px;
+}
+
+#community-tabs.nav-tabs > li.active > a, #community-tabs.nav-tabs > li.active > a:focus, #community-tabs.nav-tabs > li.active > a:hover{
+
+    outline:none;
+} 
+
+#community-tabs.nav-tabs > li > a,#community-tabs.nav-tabs > li > a:hover,#community-tabs.nav-tabs > li > a:focus{
+
+    outline:none;
+} 
+
+
+      
+.tab-pane .row{
+	width: 100%;
+	height: 100%;
+	margin-left: 0;
+}   
+
+
+
+#NewYork{
+    text-align: center;
+  display: inline-block;
+  border: none;
+  border-top: thin solid green;
+  margin-top: 9px;
+  font-family: 'Noticia Text', serif;
+}
+
+/*Sidebar stuff*/
+.container .leftsidebar{
+  background-image: url('../backgrounds/bg_pi.png');
+}
+
+#sidebargroup
+{
+  border-width: 3px;
+  padding-bottom: 30px;
+}
+
+.leftsidebar{
+    border: 2px solid white;
+
+}
+#sidebargroup li{
+    list-style: none;
+
+}
+
+
+#sidebargroup li {
+  padding-bottom: 10px;
+}
+#sidebargroup ul{
+  padding-left: 0px;
+}
+
+
+/*The main changing content*/
+.main.tab-content{
+margin-top: 120px; 
+padding-top: 10px; 
+margin-right: 0px;
+	margin-bottom: 0px;
+    position:relative;
+}
+
+.main.tab-content .tab-pane.active{
+   border: 2px solid white;
+   margin-bottom: 0px; 
+   padding-bottom: 0px;
+   background-color: white;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    /* If max-width does not work, try using width instead */
+    width: 200px; 
+    font-size: 30px;
+	background-color: transparent;
+	color: black;
+}
+
+#tuffy-app img{
+  width:100%;
+}
+
+#MainContainer.row {
+    display: table;
+}
+
+#MainContainer [class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+@-webkit-keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+
+@keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  border-radius: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: center;
+}
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: 100%;
+  margin-right: -100px;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+  background-image: url('../backgrounds/bg_pa_or.png');
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px gold solid;
+  text-align: justify;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+
+
+/* The button used to close the modal */
+#id01 .modal-dialog .modal-content header .closebtn  
+{
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 2%;
+  color: white;
+}
+#id01 form .closebtn 
+{
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #46B3C0;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#id01 .closebtn:hover .closebtn:focus {
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#id01 .container {
+  font-size: 20px;
+  padding: 2px 16px;
+}
+
+#id01 header {
+  background-color: #46B3C0; 
+  font-size: 20px;
+  color: white;
+  width: 100%;
+}
+
+
+
+#id02 .modal-dialog .modal-content {
+  margin: auto;
+  background-color: black;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.2s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.2s;
+}
+
+/* The button used to close the modal */
+#id02 header .closebtn {
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 2%;
+  color: white;
+}
+
+#id02 .modal-dialog .modal-content .container div .closebtn
+{
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: tan;
+  width: 25%;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#id02 .closebtn:hover .closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#id02 .container {
+  font-size: 20px;
+  padding: 2px 16px;
+}
+
+#id02 header {
+  background-color: #46B3C0;
+  font-size: 25px;
+  color: white;
+  width: 100%;
+}
+
+
+.container textarea{
+  
+  width: 62%;
+  margin-left:1%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#emailLetter{
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+#letterbody {
+  width: 722px;
+  margin-top: 16px;
+
+}
+
+#signOff {
+  width: 293px;
+}
+
+.closebtn.send {
+  padding-top: 5px;
+}
+
+.letter-error {
+  padding-left: 12px;
+}
+
+.bx-wrapper .bx-controls-direction a {
+  z-index: 400;
+}
+
+.row.pull-down {
+  margin-top: 20px;
+}
+
+.dummy1 {
+    background-image: url('../backgrounds/bg_go.png');
+}
+
+.dummy2 {
+    background-image: url('../backgrounds/bg_gr2.png');
+}
+.dummy3 {
+    background-image: url('../backgrounds/bg_re1.png');
+}
+.dummy4 {
+    background-image: url('../backgrounds/bg_re2.png');
+}
+.dummy5 {
+    background-image: url('../backgrounds/bg_go2.png');
+}
+.dummy6 {
+    background-image: url('../backgrounds/bg_bl2.png');
+}
+.dummy7 {
+    background-image: url('../backgrounds/bg_pu2.png');
+}
+.dummy8 {
+    background-image: url('../backgrounds/bg_re3.png');
+}
+.dummy9 {
+    background-image: url('../backgrounds/bg_gr1.png');
+}
+.dummy10 {
+    background-image: url('../backgrounds/bg_bl.png');
+}
+.dummy11 {
+    background-image: url('../backgrounds/bg_pi1.png');
+}
+.dummy12 {
+    background-image: url('../backgrounds/bg_go2.png');
+}
+.dummy13 {
+    background-image: url('../backgrounds/bg_or2.png');
+}
+.dummy14 {
+    background-image: url('../backgrounds/bg_vi1.png');
+}
+.dummy15 {
+    background-image: url('../backgrounds/bg_pu1.png');
+}
+.dummy16 {
+    background-image: url('../backgrounds/bg_bl1.png');
+}
+.dummy17 {
+    background-image: url('../backgrounds/bg_bl1.png');
+}
+
+ #shareYourWork
+{
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width:100%;
+  border-radius: 0px;
+  /*margin-bottom: 20px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

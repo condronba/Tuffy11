@@ -1,0 +1,274 @@
+
+
+#home{
+	background-image: url('../backgrounds/bg_go4.png');
+	-webkit-border-radius: 40px 40px 40px 40px; 
+    -moz-border-radius: 40px 40px 40px 40px; 
+    -o-border-radius: 40px 40px 40px 40px; 
+    border-radius: 40px 40px 40px 40px; 
+
+}
+
+#home img{
+	  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+  	display: block;
+	
+	-webkit-border-radius: 50px 50px 50px 50px; 
+    -moz-border-radius: 50px 50px 50px 50px; 
+    -o-border-radius: 50px 50px 50px 50px; 
+    border-radius: 50px 50px 50px 50px; 
+}
+
+.homepage-icon{
+	height: 197px;
+    margin: 1em;
+}
+
+.last-row-home{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.first-row-home{
+		margin-top: 20px;
+}
+
+.row.gallery-home, .row.gallery-home *{
+	width: 100%;
+}
+
+/*hover over titles for CD COVER and SEND MAIL TO TUFFY */
+
+
+
+.imgDescription 
+{
+	position: absolute;
+	top: 82%;
+	left: 29px;
+	right: 29px;
+
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 30px 10px 30px 10px;
+	 
+	visibility: hidden;
+	opacity: 0;
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+#home-videos-icon .imgDescription{
+	background: rgba(242, 231, 9, 0.80);
+	border-color: rgba(242, 231, 9, 0.60);
+}
+
+#home-music-icon .imgDescription{
+	background: rgba(53, 9, 231, 0.34);
+	border-color: rgba(53, 9, 231, 0.60);
+}
+
+
+
+#buy-now 
+{
+	position: absolute;
+	top: -6px;
+	left: -5px;
+	right: 18px;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: bold;
+	color: white;
+	
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 60px;
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	background: rgba(255, 81, 0, 0.6) none repeat scroll 0% 0%;
+	border-color: rgba(242, 9, 141, 0.6);
+	border-style: double;
+	
+}
+
+@-webkit-keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* Add animation (Standard syntax) */
+
+@keyframes example {
+    from {top:-100px;opacity: 0;}
+    to {top:0px;opacity:1;}
+}
+
+/* The modal's background */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  border-radius: 0;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Display the modal when targeted */
+.modal:target {
+  display: table;
+  position: center;
+}
+
+/* The modal box */
+.modal-dialog {
+  display: table-cell;
+  vertical-align: middle;
+  margin-left: 100%;
+  margin-right: -100px;
+}
+
+/* The modal's content */
+.modal-dialog .modal-content {
+  margin: auto;
+	background-image: url('../backgrounds/bg_pa_or.png'); 
+	
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px gold solid;
+  text-align: justify;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+	-webkit-animation-name: example; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 0.5s; /* Chrome, Safari, Opera */
+	animation-name: example;
+	animation-duration: 0.5s;
+}
+
+
+
+/* The button used to close the modal */
+#id01 .modal-dialog .modal-content header .closebtn  
+{
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 2%;
+  color: white;
+}
+#id01 form .closebtn 
+{
+  font-size: 35px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #46B3C0;
+  width: 25%;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 5px 5px 2px 5px;
+  
+}
+
+#id01 .closebtn:hover .closebtn:focus {
+  color: #000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#id01 .container {
+	font-size: 25px;
+	padding: 2px 16px;
+}
+
+#id01 header {
+  background-image: url('../backgrounds/str_tr_bl.png');
+  background-position: center;
+  font-size: 25px;
+  color: white;
+  width: 100%;
+}
+
+
+
+#id02 .modal-dialog .modal-content {
+  margin: auto;
+  background-color: black;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  border: 1px #777 solid;
+  text-align: justify;
+  width: 60%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  /* Add animation */
+  -webkit-animation-name: example; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 0.2s; /* Chrome, Safari, Opera */
+  animation-name: example;
+  animation-duration: 0.2s;
+}
+
+/* The button used to close the modal */
+#id02 header .closebtn 
+{
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  margin-right: 2%;
+  color: white;
+}
+
+#id02 .modal-dialog .modal-content .container div .closebtn
+{
+	font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  background-color: tan;
+  width: 25%;
+  text-align: center;
+  border-radius: 50px;
+}
+
+#id02 .closebtn:hover .closebtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#id02 .container {
+	font-size: 25px;
+	padding: 2px 16px;
+}
+
+#id02 header {
+  background-image: url('../backgrounds/str_tr_bl.png');
+  background-position: center;
+  font-size: 25px;
+  color: white;
+  width: 100%;
+}
+
+
+#home .container textarea{
+	
+	width: 62%;
+	margin-left:1%;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+

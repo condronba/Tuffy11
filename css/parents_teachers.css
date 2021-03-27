@@ -1,0 +1,32 @@
+#teacherparent {
+
+  font-size: 20px;
+}
+
+#teacherparent .panel-body {
+
+    height: 100%;
+    padding-top: 0;
+}
+
+#teacherparent .panel.panel-default{
+	margin-bottom: auto;
+	height: 100%;
+}
+
+#teacherparent .workshop {
+	text-align: center;
+}
+#teacherparent .emaildetails {
+
+	text-align: center;
+}
+#teacherparent .emaildetails  a{
+
+	font-size: 23px;
+	margin-left: -8%;
+	border-radius: 100px;
+	background-color: bisque;
+	padding: 14px;
+}
+
