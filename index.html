@@ -126,8 +126,6 @@
           </div>
           <div class="main tab-pane" id="app">        
           </div>
-          <div class="main tab-pane" id="gallery">        
-          </div>
           <div class="main tab-pane" id="makentakes">          
           </div>
           <div class="main tab-pane" id="cd">
@@ -218,114 +216,7 @@
     ​<script src="jwplayer/jwplayer.js"></script>
     <script>jwplayer.key="A8RkHxa0+wNgfe4afl4qIGZ29JPiBHR4ZFg2mw==";</script>
 
-    <!-- Modal For Sending Letter -->
-    <div id="id01" class="modal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <header class="container"> 
-            <a href="#" class="closebtn">×</a>
-            <h2 class="WriteTo">Write a Letter to Tuffy!</h2>
-          </header>
-
-          <div class="container">
-            <form id="mailform">
-              <p class="LetterTo"> Dear Tuffy,</p>
-              <div id="emailLetter">
-                <textarea form="mailform" id="letterbody" name="letterbody" rows="4" ></textarea>
-                <div id="help-block-letter-1" class="letter-error" hidden >Letter can only be 500 characters or less.</div>
-                <div id="help-block-letter-2" class="letter-error" hidden>Letter needs some words.</div>
-              </div>
-              <div class="row">
-                <div class="col-md-4">
-                </div>
-                <div class="col-md-4">
-                  <p id="signOff">Your Friend, </p>
-                  <div class="nameLetter">
-                    <input id="signOff" name="signOff" type="text" class="input" /> 
-                    <div id="help-block-name" hidden>Please enter your name.</div>
-                    <div id="help-block-name2" hidden>Name is too long. More than 40 characters.</div>
-
-                  </div>
-                  <input id="characterLetter" name="character" type="hidden" value="Tuffy">                  
-                </div>
-                <div class="col-md-1">
-                </div>
-              </div>
-              <div id="emailParent">
-                <div>  
-                  <input onclick="hiding()" type="checkbox" id="box" ></input>
-                  <label id="emailLabel" for="box">Have an Email so Tuffy can reply back? (Optional)</label>
-                </div>
-                <input name="custom" id="hide" name="email" style="width: 500px;" placeholder="Please enter email" hidden />
-                <div id="help-block-email" hidden>Please enter a valid email address or uncheck the email box.</div>
-              </div>
-              <script>
-              function hiding()
-              {
-                if(document.getElementById("box").checked)
-                {
-                 $("#hide").show();
-                 $("#hide").addClass("form-control");
-               }
-               else
-               {
-                $("#hide").hide();
-                $("#hide").removeClass("form-control");
-                $("#help-block-email").removeClass("help-block");
-              }
-            }
-
-            </script>
-            <a type="submit" href="#id02" class="closebtn send">Send to Tuffy</a> 
-            
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="id02" class="modal">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <header class="container"> 
-          <a href="#" class="closebtn close">×</a>
-          <h2>Mail Sent! &#9993;</h2>
-        </header>
-        
-        <div class="container">
-          <p>Thanks for sending me a letter! &#9993;</p>
-
-          <div class="row">
-            <a href="#" class="closebtn">
-              <a href="#id01"  class="closebtn sendLetter anotherLetter">Write another letter to Tuffy?
-              </a>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<!-- Share-->
-<div id="shareWork1" class="modal">
-    <div class="modal-dialog">
-		<div class="modal-content">
-			<header class="container"> 
-				<a href="#" class="closebtn">×</a>
-				<h2>Share Your Handmade Puppet with Tuffy!</h2>
-			</header>
-        
-			<div class="container" style="height: 600px;">
-
-			<div class="embed-responsive embed-responsive-4by3">
-				<iframe class="embed-responsive-item" src="share.php" style="zoom:0.60" frameborder="0" height="250" width="720"></iframe> 
-			</div>
-
-			</div>
-		</div>
-    </div>
-</div>
+    
 <!--Used to preload the backgrounds, for each background -->
 <div class="dummy1" > </div>
 <div class="dummy2" > </div>
